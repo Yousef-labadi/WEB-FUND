@@ -1,0 +1,19 @@
+var angleClock = function(hour, minutes) {
+    var mins =minutes;
+    var x = mins/60;
+    var minsang=x*360;
+    var hr=hour;
+    if (hr==12){
+        hr=0;
+    }
+    var hrang= (x + hr) * 30 ;
+    var degree= (minsang-hrang);
+    if (degree < 0 ){ 
+    degree*=-1;
+    }
+    if(degree>180){
+        degree=360-degree;
+
+    }
+    return degree ;
+}

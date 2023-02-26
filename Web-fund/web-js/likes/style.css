@@ -1,0 +1,21 @@
+.coun{
+    border: 3px solid black;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.top{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.likes{
+    background-color: yellow;
+
+    
+}
+.text{
+    text-align: center;
+}

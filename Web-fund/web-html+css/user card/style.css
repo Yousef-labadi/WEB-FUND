@@ -1,0 +1,54 @@
+.countener{
+    width: 497px;
+    height: 410px;;
+  
+  background-color: white;
+  display: flex;
+ 
+  margin: auto;
+  flex-direction: column;
+  border: 1px solid;
+}
+.blue{
+    background-color: #17a2b8;
+    width: 497px;
+    height: 100px;
+}
+.userpic{
+    position: relative;
+    bottom: -41px;
+    width: 70px;
+    height: 80px;
+    margin: 15px;
+    
+}
+.username{
+    font-style:italic;
+
+}
+.mappic{
+    width: 18px;
+    height: 23px;
+
+}
+.edit{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1px;
+    margin: 1px;
+}
+.gearpic{
+    width: 18px;
+    height: 23px;
+
+}
+.button{
+    margin: 1px;
+}
+.text{
+    margin: 2px;
+}
+.end{
+    margin: 20px;
+}
+

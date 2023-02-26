@@ -1,0 +1,29 @@
+.blue{
+background-color: #4cb8f8;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+width: 1000px;
+margin: 20px;
+}
+.pink{
+    background-color:#d79ae5;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 1000px;
+    margin: 20px;
+}
+
+.white{
+    background-color:azure;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1000px;
+    margin: 20px;
+}
+div{
+    margin: 20px;
+    padding: 20px;
+}

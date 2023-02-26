@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo-Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+            <h1>DojoWeathe</h1>
+            <ul>
+               <button onclick="ale(this)"> <li><strong>Burbank</strong> </li></button>
+                <button onclick="ale(this)"><li><strong>Chicago</strong></li></button>
+               <button onclick="ale(this)"><li><strong>Dallas</strong></li></button>
+            </ul>
+    </div>
+    <div class="tem-type">
+        <span>
+        <p id="san">San Jose </p>
+        </span>
+        <span><p id="tem"> show temerature in 
+            <select name="temer" onchange="changeselect(this)">
+                <option value="1" >°C</option>
+                <option value="2" >°F</option>
+              </select>
+            </p>
+        </span>
+       
+
+      </div>
+      <div class="line"></div>
+
+      <div class="days">
+        <div class="days-1">
+            <h2>Today</h2>
+            <img src="some_rain.png" alt="some" class="img">
+            <h3>some rain</h3>
+            <span class="num">
+                <strong style="color: red;font-size:large;" class="temmm">24 </strong>
+                <strong style="color:rgb(25, 0, 255);font-size:large;" class="temmm">18 </strong>
+            </span>
+        </div>
+        <div class="days-1">
+            <h2>Tomorrow</h2>
+            <img src="some_sun.png" alt="some" class="img">
+            <h3>some sun</h3>
+            <span class="num">
+                <strong style="color: red;" class="temmm">27</strong>
+                <strong style="color: rgb(25, 0, 255);" class="temmm">19</strong>
+            </span>
+        </div>
+        <div class="days-1">
+            <h2>Friday</h2>
+            <img src="some_clouds.png" alt="some" class="img">
+            <h3>some sun</h3>
+            <span class="num">
+                <strong style="color: red;" class="temmm">21</strong>
+                <strong style="color: rgb(25, 0, 255);" class="temmm">16</strong>
+            </span>  
+        </div>
+        <div class="days-1">
+            <h2>Saturday</h2>
+            <img src="some_sun.png" alt="some" class="img">
+            <h3>some sun</h3>
+            <span class="num">
+                <strong style="color: red;" class="temmm">26</strong>
+                <strong style="color: rgb(25, 0, 255);" class="temmm">21</strong>
+            </span> 
+        </div>
+      </div>
+      <div class="cookie" id="demo">
+        <img src="cookie.png" alt="cookie">
+        <span>
+            <h1>Stop! Cookie time </h1>
+            <h3>we use coolies (sadly not the edible ones) to personalize content and ads, to provide social media features and to annlyse our traffic. <a href="#">Read More...</a></h3>
+        </span>
+        <button onclick="deletee()">I accept</button>
+      </div>
+
+    
+
+    <script src="test.js"></script>
+</body>
+</html>

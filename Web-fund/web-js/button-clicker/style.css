@@ -1,0 +1,71 @@
+.dojo{
+    height: 40px;
+    width: 970px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.dojo h1{
+    color: white;
+}
+.dojo button{
+    background-color: blue;
+    color: #fff;
+}
+
+.coun{
+    width: 970px;
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+.righttop{
+   border: 1px solid black;
+    height: 150pxx;
+    width: 300px;
+    margin-bottom: 40px;
+    display: flex;
+
+}
+.rightbottom{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 148px; 
+}
+.rtl{
+    margin-bottom: 15px;
+    margin-left: 13px;
+}
+.rtr{
+    text-align: center;
+    margin-top: 50px;
+}
+.rbl{
+    margin-bottom: 15px;
+    margin-left: 13px;
+}
+.rbr{
+    text-align: center;
+    margin-top: 50px;
+}
+.left button{
+    background-color: green;
+    color:black;
+    width: 150px;
+}
